@@ -3,6 +3,7 @@ import mongodb from "mongodb";
 import dotenv from "dotenv";
 import RestaurantsDAO from "./dao/restaurantsDAO.js";
 import ReviewsDAO from "./dao/reviewsDAO.js";
+import express from "express";
 
 dotenv.config();
 const MongoClient = mongodb.MongoClient;
